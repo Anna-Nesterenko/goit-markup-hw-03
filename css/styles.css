@@ -5,7 +5,7 @@
   --white-text-color: #ffffff;
   --background-box-dark: #2f303a;
   --background-box-light: #f5f4fa;
-  --margin-cards: 30px;
+  --margin-cards-thirty: 30px;
   --border-box: 1px solid #ececec;
 }
 
@@ -136,7 +136,7 @@ ul {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: var(--margin-cards);
+  margin-bottom: var(--margin-cards-thirty);
   color: var(--white-text-color);
   font-size: 44px;
   font-weight: 900;
@@ -189,7 +189,7 @@ ul {
 }
 .qualities-li {
   width: 270px;
-  margin-right: var(--margin-cards);
+  margin-right: var(--margin-cards-thirty);
 }
 .qualities-li:last-child {
   margin-right: 0;
@@ -215,7 +215,7 @@ ul {
 
 .examples-pict {
   width: calc ((100% - 60px) / 3);
-  margin-right: var(--margin-cards);
+  margin-right: var(--margin-cards-thirty);
 }
 
 .examples-pict:last-child {
@@ -234,7 +234,7 @@ ul {
 
 .team-box {
   width: calc((100% - 90px) / 4);
-  margin-right: var(--margin-cards);
+  margin-right: var(--margin-cards-thirty);
 }
 
 .team-box:last-child {
@@ -350,14 +350,14 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .pictures {
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--margin-cards));
-  margin-right: calc(-1 * var(--margin-cards));
+  margin-top: calc(-1 * var(--margin-cards-thirty));
+  margin-right: calc(-1 * var(--margin-cards-thirty));
 }
 
 .pictures-li {
-  width: calc(100% / 3 - var(--margin-cards));
-  margin-right: var(--margin-cards);
-  margin-top: var(--margin-cards);
+  width: calc(100% / 3 - var(--margin-cards-thirty));
+  margin-right: var(--margin-cards-thirty);
+  margin-top: var(--margin-cards-thirty);
   border: var(--border-box);
 }
 .pictures-box {
